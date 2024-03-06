@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { MegaMenuWithHover } from './components/Navbar/Navbar'
 
 function App() {
   return (
     <>
-      <h1 className='text-red-500 '>HELLO TYEST</h1>
+      <div>
+        <MegaMenuWithHover />
+      </div>
     </>
   )
 }
